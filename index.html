@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Fraud URL Detector</title>
+  <link rel="stylesheet" href="aid.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🛡️ AI Fraud URL Detector</h1>
+    <p>Enter a website URL to check if it's correct or wrong.</p>
+
+    <form id="urlForm">
+      <input type="text" id="urlInput" placeholder="e.g. https://example.com" required />
+      <button type="submit">Check</button>
+    </form>
+
+    <div id="result" class="hidden">
+      <h2>Result: <span id="resultText"></span></h2>
+    </div>
+
+    <footer>
+      <p>🔒 Educational use only | Simple AI URL Checker</p>
+    </footer>
+  </div>
+
+  <script src="aid.js"></script>
+</body>
+</html>
